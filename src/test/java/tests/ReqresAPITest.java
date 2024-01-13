@@ -99,7 +99,7 @@ public class ReqresAPITest {
                 .statusCode(201);
     }
 
-    @Test//
+    @Test
     public void putUpdate() {
         String response = given()
                 .body("{\n" +
